@@ -1,4 +1,4 @@
-from models import *
+from greedy_algorithms.greedy_student.models import *
 
 M = 60
 N = 100
@@ -22,7 +22,6 @@ def greedy_students2(grade, tasks):
                 or (tasks[prefered_idtask].effort >= task.effort 
                     and tasks[prefered_idtask].score < task.score)):
                 prefered_idtask = __idtask
-        selected_tasks.append(task)
     return selected_tasks
 
 def greedy_students(grade, tasks):
