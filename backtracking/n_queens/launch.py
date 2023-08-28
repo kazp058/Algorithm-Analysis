@@ -6,7 +6,7 @@ def isValid(sol, level):
         j = level - idx
         a = sol[idx]
         b = sol[level]
-        if sol[idx] == sol[level] or abs(sol[level] - sol[idx]) == 0:
+        if sol[idx] == sol[level] or abs(sol[level] - sol[idx]) == level - idx:
             valid = False
         idx += 1
     return valid
