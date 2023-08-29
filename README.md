@@ -37,4 +37,5 @@ Tambien en ciertos casos habran metodos implementados en estas clases, estos gen
 
 - [brute force](https://github.com/kazp058/Algorithm-Analysis/tree/main/brute_force)
 - [backtracking](https://github.com/kazp058/Algorithm-Analysis/tree/main/divide_n_conquer)
+- [Dividir y conquistar](https://github.com/kazp058/Algorithm-Analysis/tree/main/divide_n_conquer)
 - [greedy](https://github.com/kazp058/Algorithm-Analysis/tree/main/greedy_algorithms)
