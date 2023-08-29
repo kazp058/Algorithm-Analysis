@@ -31,6 +31,8 @@ Obviamente durante la implementacion es mas facil observar a que se esta accedie
     print(tarea_objeto.esfuerzo) #Imprime el esfuerzo
 ```
 
+Tambien en ciertos casos habran metodos implementados en estas clases, estos generalmente no son importantes para el algoritmo, solo permiten simplificar el codigo pero no tienen implicaciones directas en el algoritmo.
+
 ## Strategy:
 
 - [brute force](https://github.com/kazp058/Algorithm-Analysis/tree/main/brute_force)
