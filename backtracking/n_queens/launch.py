@@ -2,10 +2,7 @@ def isValid(sol, level):
     valid = True
     idx = 0
     while idx < level and valid:
-        i = abs(sol[level] - sol[idx])
-        j = level - idx
-        a = sol[idx]
-        b = sol[level]
+
         if sol[idx] == sol[level] or abs(sol[level] - sol[idx]) == level - idx:
             valid = False
         idx += 1
